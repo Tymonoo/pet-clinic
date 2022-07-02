@@ -1,4 +1,4 @@
-package model;
+package tymono.spring.petclinic.model;
 
 public class Person {
     private String firstName;

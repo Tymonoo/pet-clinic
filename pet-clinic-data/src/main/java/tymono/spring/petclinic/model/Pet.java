@@ -1,4 +1,4 @@
-package model;
+package tymono.spring.petclinic.model;
 
 import java.time.LocalDate;
 
