@@ -2,12 +2,8 @@ package tymono.spring.petclinic.services;
 
 import tymono.spring.petclinic.model.Pet;
 
-import java.util.Set;
 
-public interface PetService {
-    Pet findById(Long id);
 
-    Pet save(Pet pet);
+public interface PetService extends CrudService<Pet,Long> {
 
-    Set<Pet> findAll();
 }
