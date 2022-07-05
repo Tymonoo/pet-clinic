@@ -1,11 +1,11 @@
 package tymono.spring.petclinic.services.map;
 
 import tymono.spring.petclinic.model.Vet;
-import tymono.spring.petclinic.services.CrudService;
+import tymono.spring.petclinic.services.VetService;
 
 import java.util.Set;
 
-public class VetServiceMap extends AbstractMapService<Vet, Long> implements CrudService<Vet, Long> {
+public class VetServiceMap extends AbstractMapService<Vet, Long> implements VetService{
     @Override
     public Set<Vet> findAll() {
         return super.findAll();
