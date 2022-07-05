@@ -1,10 +1,12 @@
 package tymono.spring.petclinic.services.map;
 
+import org.springframework.stereotype.Service;
 import tymono.spring.petclinic.model.Pet;
 import tymono.spring.petclinic.services.PetService;
 
 import java.util.Set;
 
+@Service
 public class PetServiceMap extends AbstractMapService<Pet,Long> implements PetService {
     @Override
     public Set<Pet> findAll() {
